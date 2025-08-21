@@ -3,6 +3,7 @@ using BackendProject.App.Data;
 using BackendProject.App.Models;
 using BackendProject.App.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BackendProject.App.Controllers
 {
@@ -16,7 +17,20 @@ namespace BackendProject.App.Controllers
         {
             HomeVm homeVm = new HomeVm()
             {
-                Sliders = pustokDbContext.Sliders.ToList()
+                Sliders = pustokDbContext.Sliders.ToList(),
+                FeaturedBooks=pustokDbContext.Books
+                .Include(b=>b.Author)
+                .Where(b=>b.IsFeatured).ToList(),
+
+                NewBooks=pustokDbContext.Books
+                .Include(b=> b.Author)
+                .Where(b=>b.IsNew).ToList(),
+
+                DiscountBooks=pustokDbContext.Books
+                .Include (b=>b.Author)  
+                .Where(b=>b.DiscountPercentage> 0).ToList(),
+
+
             };
             return View(homeVm);
         }

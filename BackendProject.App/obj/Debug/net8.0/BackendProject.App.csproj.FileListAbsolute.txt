@@ -136,3 +136,5 @@ C:\Users\zeyna\source\repos\BackendProject\BackendProject.App\obj\Debug\net8.0\r
 C:\Users\zeyna\source\repos\BackendProject\BackendProject.App\obj\Debug\net8.0\BackendProject.App.pdb
 C:\Users\zeyna\source\repos\BackendProject\BackendProject.App\obj\Debug\net8.0\BackendProject.App.genruntimeconfig.cache
 C:\Users\zeyna\source\repos\BackendProject\BackendProject.App\obj\Debug\net8.0\ref\BackendProject.App.dll
+C:\Users\zeyna\source\repos\BackendProject\BackendProject.App\obj\Debug\net8.0\BackendProject.App.sourcelink.json
+C:\Users\zeyna\source\repos\BackendProject\BackendProject.App\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

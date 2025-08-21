@@ -74,8 +74,7 @@
               "RelativeToolTip": "BackendProject.App\\ViewModels\\HomeVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T05:35:11.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T05:35:11.978Z"
             },
             {
               "$type": "Document",
@@ -85,7 +84,7 @@
               "RelativeDocumentMoniker": "BackendProject.App\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "BackendProject.App\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAJsLAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-21T04:56:11.388Z",
               "EditorCaption": ""
@@ -100,8 +99,7 @@
               "RelativeToolTip": "BackendProject.App\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAEkDAAAAAAAAAAArwFkDAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T04:52:35.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T04:52:35.855Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "BackendProject.App\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T04:15:56.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T04:15:56.29Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "BackendProject.App\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T04:15:06.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T04:15:06.044Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "BackendProject.App\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T04:14:36.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T04:14:36.048Z"
             },
             {
               "$type": "Document",
@@ -152,21 +147,19 @@
               "RelativeToolTip": "BackendProject.App\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-21T03:58:24.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T03:58:24.802Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "BackendProject.App",
+              "Title": "BackendProject.App.csproj",
               "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\BackendProject.App.csproj",
               "RelativeDocumentMoniker": "BackendProject.App\\BackendProject.App.csproj",
               "ToolTip": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\BackendProject.App.csproj",
               "RelativeToolTip": "BackendProject.App\\BackendProject.App.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-21T04:08:44.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T04:08:44.508Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "BackendProject.App\\Models\\Common\\AuditEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T04:05:33.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T04:05:33.519Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "BackendProject.App\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T04:15:03.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T04:15:03.992Z"
             },
             {
               "$type": "Document",
@@ -204,8 +195,7 @@
               "RelativeToolTip": "BackendProject.App\\Models\\Slider.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T04:01:56.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T04:01:56.082Z"
             },
             {
               "$type": "Document",
@@ -217,8 +207,7 @@
               "RelativeToolTip": "BackendProject.App\\Data\\PustokDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T03:54:51.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T03:54:51.702Z"
             },
             {
               "$type": "Document",
@@ -230,8 +219,7 @@
               "RelativeToolTip": "BackendProject.App\\Models\\Common\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T04:01:47.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T04:01:47.486Z"
             }
           ]
         }

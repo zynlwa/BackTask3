@@ -1,6 +1,4 @@
-using System.Diagnostics;
 using BackendProject.App.Data;
-using BackendProject.App.Models;
 using BackendProject.App.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -29,6 +27,7 @@ namespace BackendProject.App.Controllers
                 DiscountBooks=pustokDbContext.Books
                 .Include (b=>b.Author)  
                 .Where(b=>b.DiscountPercentage> 0).ToList(),
+                Features=pustokDbContext.Features.ToList()
 
 
             };

@@ -20,11 +20,29 @@ namespace BackendProject.App.Controllers
                 .Include(b=>b.BookImages)
                 .Include(b=>b.Author)
                 .Include(b=>b.Genre)
+                .Include(b=>b.BookTags)
+                .ThenInclude(b=>b.Tag)
                 .FirstOrDefault(b=>b.Id == id);
             if(book == null)
                 return NotFound();
             return View(book);
             
+        }
+        public IActionResult BookModal(int? id)
+        {
+            if (id == null)
+                return NotFound();
+            var book = pustokDbContext.Books
+                .Include(b => b.BookImages)
+                .Include(b => b.Author)
+                .Include(b => b.Genre)
+                .Include(b => b.BookTags)
+                .ThenInclude(b => b.Tag)
+                .FirstOrDefault(b => b.Id == id);
+            if (book == null)
+                return NotFound();
+            return PartialView("_BookModal", book);
+
         }
     }
 }

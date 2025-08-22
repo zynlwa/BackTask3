@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\views\\shared\\_modalpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|solutionrelative:backendproject.app\\views\\shared\\_modalpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\wwwroot\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|solutionrelative:backendproject.app\\wwwroot\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\views\\book\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|solutionrelative:backendproject.app\\views\\book\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|solutionrelative:backendproject.app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\views\\shared\\_bookmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|solutionrelative:backendproject.app\\views\\shared\\_bookmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\views\\shared\\_bookpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|solutionrelative:backendproject.app\\views\\shared\\_bookpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|solutionrelative:backendproject.app\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\data\\pustokdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|solutionrelative:backendproject.app\\data\\pustokdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\views\\book\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|solutionrelative:backendproject.app\\views\\book\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,6 +37,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|solutionrelative:backendproject.app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|solutionrelative:backendproject.app\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|solutionrelative:backendproject.app\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\models\\booktag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|solutionrelative:backendproject.app\\models\\booktag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{022C9366-7A28-4E60-8791-6192E42C8F35}|BackendProject.App\\BackendProject.App.csproj|c:\\users\\zeyna\\source\\repos\\backendproject\\backendproject.app\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,63 +66,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_ModalPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Views\\Shared\\_ModalPartial.cshtml",
-              "RelativeDocumentMoniker": "BackendProject.App\\Views\\Shared\\_ModalPartial.cshtml",
-              "ToolTip": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Views\\Shared\\_ModalPartial.cshtml",
-              "RelativeToolTip": "BackendProject.App\\Views\\Shared\\_ModalPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "_BookModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Views\\Shared\\_BookModal.cshtml",
+              "RelativeDocumentMoniker": "BackendProject.App\\Views\\Shared\\_BookModal.cshtml",
+              "ToolTip": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Views\\Shared\\_BookModal.cshtml",
+              "RelativeToolTip": "BackendProject.App\\Views\\Shared\\_BookModal.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwAsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T17:03:48.341Z",
+              "WhenOpened": "2025-08-22T16:29:06.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BackendProject.App\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BackendProject.App\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEsDAAAAAAAAAAAuwFUDAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T16:16:57.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\wwwroot\\assets\\js\\main.js",
+              "RelativeDocumentMoniker": "BackendProject.App\\wwwroot\\assets\\js\\main.js",
+              "ToolTip": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\wwwroot\\assets\\js\\main.js*",
+              "RelativeToolTip": "BackendProject.App\\wwwroot\\assets\\js\\main.js*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-22T16:14:48.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "BackendProject.App\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Controllers\\BookController.cs",
+              "RelativeToolTip": "BackendProject.App\\Controllers\\BookController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvy4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T15:38:46.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PustokDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Data\\PustokDbContext.cs",
+              "RelativeDocumentMoniker": "BackendProject.App\\Data\\PustokDbContext.cs",
+              "ToolTip": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Data\\PustokDbContext.cs",
+              "RelativeToolTip": "BackendProject.App\\Data\\PustokDbContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA/wAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T15:16:24.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "BackendProject.App\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Models\\Book.cs",
+              "RelativeToolTip": "BackendProject.App\\Models\\Book.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T15:15:13.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "BackendProject.App\\Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Models\\Tag.cs",
+              "RelativeToolTip": "BackendProject.App\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T15:11:12.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Views\\Book\\Detail.cshtml",
               "RelativeDocumentMoniker": "BackendProject.App\\Views\\Book\\Detail.cshtml",
               "ToolTip": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Views\\Book\\Detail.cshtml",
               "RelativeToolTip": "BackendProject.App\\Views\\Book\\Detail.cshtml",
-              "ViewState": "AgIAAPIBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwFoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-21T17:02:28.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_BookPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Views\\Shared\\_BookPartial.cshtml",
               "RelativeDocumentMoniker": "BackendProject.App\\Views\\Shared\\_BookPartial.cshtml",
               "ToolTip": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Views\\Shared\\_BookPartial.cshtml",
               "RelativeToolTip": "BackendProject.App\\Views\\Shared\\_BookPartial.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-21T17:02:22.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
+              "Title": "BookTag.cs",
+              "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Models\\BookTag.cs",
+              "RelativeDocumentMoniker": "BackendProject.App\\Models\\BookTag.cs",
+              "ToolTip": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Models\\BookTag.cs",
+              "RelativeToolTip": "BackendProject.App\\Models\\BookTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T15:10:58.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "BackendProject.App\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "BackendProject.App\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAwDMAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-21T16:46:36.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Feature.cs",
               "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Models\\Feature.cs",
               "RelativeDocumentMoniker": "BackendProject.App\\Models\\Feature.cs",
@@ -102,12 +221,11 @@
               "RelativeToolTip": "BackendProject.App\\Models\\Feature.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T16:31:39.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T16:31:39.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "BackendProject.App\\Controllers\\HomeController.cs",
@@ -120,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "HomeVm.cs",
               "DocumentMoniker": "C:\\Users\\zeyna\\source\\repos\\BackendProject\\BackendProject.App\\ViewModels\\HomeVm.cs",
               "RelativeDocumentMoniker": "BackendProject.App\\ViewModels\\HomeVm.cs",
@@ -128,8 +246,7 @@
               "RelativeToolTip": "BackendProject.App\\ViewModels\\HomeVm.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAYwAsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T05:35:11.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T05:35:11.978Z"
             }
           ]
         }

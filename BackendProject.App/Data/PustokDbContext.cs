@@ -24,5 +24,6 @@ namespace BackendProject.App.Data
         public DbSet<Feature> Features { get; set; }
         public DbSet<Tag> Tags { get; set; }
         public DbSet<BookTag> BookTags { get; set; }
+        public DbSet<Setting> Settings { get; set; }
     }
 }

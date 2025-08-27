@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@using BackendProject.App.Services
+@inject LayoutService layoutService
+@{
+    var settings =  layoutService.GetSettings();
+}
+<!DOCTYPE html>
 <html lang="zxx">
 
 
@@ -22,7 +27,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-3 ">
                             <a href="index.html" class="site-brand">
-                                <img src=~/assets/image/logo.png" alt="">
+                                <img src="~/assets/image/@settings.FirstOrDefault(x=>x.Key=="logo").Value" alt="">
                             </a>
                         </div>
                         <div class="col-lg-3">
@@ -343,7 +348,7 @@
                                             <div class=" single-cart-block ">
                                                 <div class="cart-product">
                                                     <a href="product-details.html" class="image">
-                                                        <img src=~/assets/image/products/cart-product-1.jpg" alt="">
+                                                        <img src="~/assets/image/products/cart-product-1.jpg" alt="">
                                                     </a>
                                                     <div class="content">
                                                         <h3 class="title">
@@ -382,7 +387,7 @@
                     <div class="row align-items-sm-end align-items-center">
                         <div class="col-md-4 col-7">
                             <a href="index.html" class="site-brand">
-                                <img src=~/assets/image/logo.png" alt="">
+                                <img src="~/assets/image/logo.png" alt="">
                             </a>
                         </div>
                         <div class="col-md-5 order-3 order-md-2">
@@ -707,7 +712,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4">
                         <a href="index.html" class="site-brand">
-                            <img src=~/assets/image/logo.png" alt="">
+                            <img src="~/assets/image/logo.png" alt="">
                         </a>
                     </div>
                     <div class="col-lg-8">
@@ -874,28 +879,28 @@
                 {"breakpoint":320, "settings": {"slidesToShow": 1} }
             ]'>
                 <div class="single-slide">
-                    <img src=~/assets/image/others/brand-1.jpg" alt="">
+                    <img src="~/assets/image/others/brand-1.jpg" alt="">
                 </div>
                 <div class="single-slide">
-                    <img src=~/assets/image/others/brand-2.jpg" alt="">
+                    <img src="~/assets/image/others/brand-2.jpg" alt="">
                 </div>
                 <div class="single-slide">
-                    <img src=~/assets/image/others/brand-3.jpg" alt="">
+                    <img src="~/assets/image/others/brand-3.jpg" alt="">
                 </div>
                 <div class="single-slide">
-                    <img src=~/assets/image/others/brand-4.jpg" alt="">
+                    <img src="~/assets/image/others/brand-4.jpg" alt="">
                 </div>
                 <div class="single-slide">
-                    <img src=~/assets/image/others/brand-5.jpg" alt="">
+                    <img src="~/assets/image/others/brand-5.jpg" alt="">
                 </div>
                 <div class="single-slide">
-                    <img src=~/assets/image/others/brand-6.jpg" alt="">
+                    <img src="~/assets/image/others/brand-6.jpg" alt="">
                 </div>
                 <div class="single-slide">
-                    <img src=~/assets/image/others/brand-1.jpg" alt="">
+                    <img src="~/assets/image/others/brand-1.jpg" alt="">
                 </div>
                 <div class="single-slide">
-                    <img src=~/assets/image/others/brand-2.jpg" alt="">
+                    <img src="~/assets/image/others/brand-2.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -909,7 +914,7 @@
                 <div class=" col-xl-3 col-lg-4 col-sm-6">
                     <div class="single-footer pb--40">
                         <div class="brand-footer footer-title">
-                            <img src=~/assets/image/logo--footer.png" alt="">
+                            <img src="~/assets/image/logo--footer.png" alt="">
                         </div>
                         <div class="footer-contact">
                             <p>
@@ -920,7 +925,7 @@
                                 </span>
                             </p>
                             <p><span class="label">Phone:</span><span class="text">+18088 234 5678</span></p>
-                            <p><span class="label">Email:</span><span class="text">suport@hastech.com</span></p>
+                            <p><span class="label">Email:</span><span class="text">@settings.FirstOrDefault(x=>x.Key=="email").Value</span></p>
                         </div>
                     </div>
                 </div>
@@ -988,7 +993,7 @@
                     magna volutpat, posuere eros
                 </p>
                 <a href="#" class="payment-block">
-                    <img src=~/assets/image/icon/payment.png" alt="">
+                    <img src="~/assets/image/icon/payment.png" alt="">
                 </a>
                 <p class="copyright-text">
                     Copyright © 2022 <a href="#" class="author">Pustok</a>. All Right Reserved.

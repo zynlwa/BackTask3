@@ -182,6 +182,19 @@ namespace BackendProject.App.Migrations
                     b.ToTable("Genres");
                 });
 
+            modelBuilder.Entity("BackendProject.App.Models.Setting", b =>
+                {
+                    b.Property<string>("Key")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Key");
+
+                    b.ToTable("Settings");
+                });
+
             modelBuilder.Entity("BackendProject.App.Models.Slider", b =>
                 {
                     b.Property<int>("Id")

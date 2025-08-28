@@ -1,5 +1,6 @@
 ﻿using BackendProject.App.Models.Common;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BackendProject.App.Models
 {
@@ -15,6 +16,8 @@ namespace BackendProject.App.Models
         
         public string ButtonLink { get; set; }
         public  int Order { get; set; }
-       
+        [NotMapped]
+        public IFormFile formFIle { get; set; }
+
     }
 }

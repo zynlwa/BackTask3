@@ -1,0 +1,51 @@
+﻿@model Genre
+
+<!-- Sadə Genre Details div-i -->
+<div class="genre-details-popup mb-3 p-2 border rounded">
+    <div><strong>ID:</strong> @Model.Id</div>
+    <div><strong>Name:</strong> @Model.Name</div>
+    <div><strong>Book Count:</strong> @Model.Books?.Count()</div>
+</div>
+
+<!-- Bootstrap Modal -->
+<div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title" id="detailModalLabel">Genre Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Üstdəki genre-details-popup kodunu modalın içərisinə əlavə etdik -->
+                <div class="genre-details-popup mb-3 p-2 border rounded">
+                    <div><strong>ID:</strong> @Model.Id</div>
+                    <div><strong>Name:</strong> @Model.Name</div>
+                    <div><strong>Book Count:</strong> @Model.Books?.Count()</div>
+                </div>
+
+                <!-- Əlavə detallı struktur -->
+                <div class="row mb-3">
+                    <div class="col-sm-4"><strong>ID:</strong></div>
+                    <div class="col-sm-8">@Model.Id</div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-sm-4"><strong>Name:</strong></div>
+                    <div class="col-sm-8">@Model.Name</div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-sm-4"><strong>Book Count:</strong></div>
+                    <div class="col-sm-8">@Model.Books?.Count()</div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>

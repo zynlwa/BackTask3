@@ -69,7 +69,6 @@ namespace BackendProject.App.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("HoverImageUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("InStock")
@@ -82,7 +81,6 @@ namespace BackendProject.App.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("MainImageUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
@@ -217,7 +215,6 @@ namespace BackendProject.App.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Order")

@@ -1,4 +1,5 @@
-﻿using BackendProject.App.Models.Common;
+﻿using BackendProject.App.Attributes;
+using BackendProject.App.Models.Common;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -32,10 +33,32 @@ namespace BackendProject.App.Models
         public int GenreId { get; set; }
         public Genre Genre { get; set; }
         public List<BookImage> BookImages { get; set; }
-        [Required]
+  
         public string MainImageUrl { get; set; }
-        [Required]
+       
         public string HoverImageUrl { get; set; }
         public List<BookTag> BookTags { get; set; }
+        [NotMapped]
+        [FileLength(2)]
+        [FileType("image/jpeg","image/png","image/jpg")]
+        public IFormFile MainPhoto { get; set; }
+        [NotMapped]
+        [FileLength(2)]
+        [FileType("image/jpeg", "image/png", "image/jpg")]
+        public IFormFile HoverPhoto { get; set; }
+        [NotMapped]
+        [FileLength(2)]
+        [FileType("image/jpeg", "image/png", "image/jpg")]
+        public IFormFile[] Photos { get; set; }
+        [NotMapped]
+        public List<int> TagIds { get; set; }
+
+        public Book()
+        {
+            BookImages = new List<BookImage>();
+            BookTags = new List<BookTag>();
+            TagIds = new List<int>();
+        }
     }
+   
 }

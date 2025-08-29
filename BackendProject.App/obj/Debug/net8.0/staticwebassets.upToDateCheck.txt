@@ -1880,6 +1880,7 @@ wwwroot\assets\fonts\Ionicons28b5.woff
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.ttf
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.woff
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.woff2
+wwwroot\assets\image\bg-images\3f33d491-ea34-404f-9612-3f38bc464208.jpg
 wwwroot\assets\image\bg-images\best-seller-bg.jpg
 wwwroot\assets\image\bg-images\home-2-slider-1.jpg
 wwwroot\assets\image\bg-images\home-2-slider-2.jpg
@@ -1933,6 +1934,10 @@ wwwroot\assets\image\others\client-5.png
 wwwroot\assets\image\others\home-blog-1.jpg
 wwwroot\assets\image\others\home-blog-2.jpg
 wwwroot\assets\image\others\home-side-promo.jpg
+wwwroot\assets\image\products\20aabbbe-c248-4c42-8ace-cef7b7f26569.jpg
+wwwroot\assets\image\products\3bd9ac22-f9df-4cd5-8dbe-b57c194ac5bd.jpg
+wwwroot\assets\image\products\49d97530-b3b6-4ef4-bea3-9285b0ebefd1.jpg
+wwwroot\assets\image\products\920b5664-0794-4faa-9ab2-7b91df439f9a.jpg
 wwwroot\assets\image\products\cart-product-1.jpg
 wwwroot\assets\image\products\product-1.jpg
 wwwroot\assets\image\products\product-10.jpg

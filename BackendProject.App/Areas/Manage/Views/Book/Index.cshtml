@@ -1,0 +1,102 @@
+﻿@model List<Book>
+<div class="container">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <h2>book</h2>
+        </div>
+        <div class="col-md-6 text-end">
+            <a asp-area="Manage" asp-controller="book" asp-action="Create" class="btn btn-primary">Create book</a>
+        </div>
+    </div>
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">ImageUrl</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">Genre</th>
+                    <th scope="col">DiscountPercentage</th>
+                    <th scope="col">Code</th>
+                    <th scope="col">Handle</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var book in Model)
+                {
+                    <tr>
+                        <td>
+                            <img width="100" src="~/assets/image/products/@book.MainImageUrl" alt="">
+                        </td>
+                        <td>@book.Title</td>
+                        <td>@book.Description</td>
+                        <td>@book.Price</td>
+                        <td>@book.Author.Name</td>
+                        <td>@book.Genre.Name</td>
+						<td>@book.DiscountPercentage</td>
+						<td>@book.Code</td>
+
+                        <td>
+                            <a asp-area="Manage" asp-controller="book" asp-action="Edit" asp-route-id="@book.Id" class="btn btn-sm btn-info">Edit</a>
+                            <a asp-area="Manage" asp-controller="book" asp-action="Detail" asp-route-id="@book.Id" class="btn btn-sm btn-info">Detail</a>
+                            <a asp-area="Manage" asp-controller="book" asp-action="Delete" asp-route-id="@book.Id" class="btn btn-sm btn-danger delete">Delete</a>
+                        </td>
+
+
+
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+</div>
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $(document).ready(function(){
+            $('.delete').click(function(e){
+                e.preventDefault();
+                var url = $(this).attr('href');
+                Swal.fire({
+                    title: 'Are you sure?',
+                    text: "You won't be able to revert this!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Yes, delete it!'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                       fetch(url)
+                        .then(res =>
+                        {
+                            if(res.ok){
+                                     swalWithBootstrapButtons.fire({
+                                  title: "Deleted!",
+                            text: "Your file has been deleted.",
+                            icon: "success"
+                                  });
+                                    window.location.reload();
+                            }else{
+                                     swalWithBootstrapButtons.fire({
+                                     title: "Cancelled",
+                                     text: "Your imaginary file is safe :)",
+                                       icon: "error"
+                                  });
+                            }
+                        });
+                        }
+                       });
+                    });
+
+
+
+         });
+
+    </script>
+}

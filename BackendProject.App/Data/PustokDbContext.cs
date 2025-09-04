@@ -1,9 +1,10 @@
 ﻿using BackendProject.App.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace BackendProject.App.Data
 {
-    public class PustokDbContext : DbContext
+    public class PustokDbContext : IdentityDbContext<AppUser>
     {
         public PustokDbContext(DbContextOptions<PustokDbContext> options)
             : base(options)

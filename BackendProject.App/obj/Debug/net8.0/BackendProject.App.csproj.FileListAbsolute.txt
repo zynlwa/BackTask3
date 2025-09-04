@@ -259,4 +259,5 @@ C:\Users\zeyna\source\repos\BackendProject\BackendProject.App\bin\Debug\net8.0\M
 C:\Users\zeyna\source\repos\BackendProject\BackendProject.App\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\zeyna\source\repos\BackendProject\BackendProject.App\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\zeyna\source\repos\BackendProject\BackendProject.App\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\zeyna\source\repos\BackendProject\BackendProject.App\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\zeyna\source\repos\BackendProject\BackendProject.App\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

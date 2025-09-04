@@ -67,6 +67,7 @@
                 @foreach(var photo in Model.BookImages)
                 {
                     <img src="~/assets/image/products/@photo.ImageUrl" alt="" witdh="100" height="100" />
+                    <a asp-action="deleteImage" asp-route-id="@photo.Id">Delete</a>
                 
                 }
             </div>

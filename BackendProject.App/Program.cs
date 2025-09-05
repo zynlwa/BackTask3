@@ -26,7 +26,7 @@ namespace BackendProject.App
             builder.Services.AddSession(opt=>
             opt.IdleTimeout=TimeSpan.FromMinutes(20)
                 );
-            
+
             builder.Services.AddIdentity<AppUser, IdentityRole>
                 (options =>
             {
@@ -39,8 +39,8 @@ namespace BackendProject.App
                 options.Lockout.MaxFailedAccessAttempts = 3;
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
                 options.Lockout.AllowedForNewUsers = true;
-            }).AddEntityFrameworkStores<PustokDbContext>();
-            
+            }).AddEntityFrameworkStores<PustokDbContext>().AddErrorDescriber<CustomErrorDescriber>();
+           
 
             var app = builder.Build();
 

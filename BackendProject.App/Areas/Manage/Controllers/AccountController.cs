@@ -57,6 +57,7 @@ namespace BackendProject.App.Areas.Manage.Controllers
                 Email="admin@gmail.com"
             };
             var result = await userManager.CreateAsync(appUser, "_Admin123");
+            await userManager.AddToRoleAsync(appUser, "Admin");
             return Json(result);
         }
         public async Task<IActionResult> UserProfile()
